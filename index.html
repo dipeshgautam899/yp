@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Yellow Pagoda </title>
+    <link rel="icon" type="image/png" href="images/logo HYPP.jpg">
+    <!-- Bootstrap 5 CDN Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <!-- -- Bootstrap 4 CDN Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+
+
+
+
+</head>
+
+<body>
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo HYPP.jpg" class="img-fluid" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#rooms">Rooms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="halls.html">Halls</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="#services">Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="main-btn"
+                                href="https://www.booking.com/hotel/np/yellow-pagoda-pokhara.en-gb.html?aid=304142&label=gen173nr-1FCBcoggI46AdIM1gEaKsBiAEBmAEJuAEXyAEM2AEB6AEB-AECiAIBqAIDuALEioCdBsACAdICJDgyNGQwOTBhLTU2ODMtNDAzZS1hYzllLTgxN2I5Nzc2NzE4NdgCBeACAQ&sid=307ad9ed9fc9b7af010f68e5e66240bf&all_sr_blocks=592355501_243434659_2_41_0;checkin=2023-01-09;checkout=2023-01-10;dest_id=5923555;dest_type=hotel;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=592355501_243434659_2_41_0;hpos=1;matching_block_id=592355501_243434659_2_41_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=592355501_243434659_2_41_0__10000;srepoch=1671431598;srpvid=7cfb2e1612b20024;type=total;ucfs=1&#hotelTmpl"
+                                target="_blank">Book Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="home" class="carousel slide " data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/banner-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption ">
+                    <h5 data-aos="fade-left">Welcome to Hotel Yellow Pagoda </h5>
+                    <p data-aos="fade-right">"For better, Save Nature"</p>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/person.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption ">
+                    <h5 data-aos="fade-left">Experience Luxury and Comfort</h5>
+                    <p data-aos="fade-right">We provide guests with unparalleled service and amenities</p>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/rooms/pagoda suite.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption ">
+                    <h5 data-aos="fade-left">Discover the perfect blend of Elegance and Comfort</h5>
+                    
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container booking-area">
+        <form class="row">
+            <div class="col-lg mb-3 mb-lg-0">
+              <label>Check-In Date</label>
+                <input type="date"  class="form-control" placeholder="Date">
+                
+            </div>
+            <div class="col-lg mb-3 mb-lg-0">
+              <label>Check-Out Date</label>
+                <input  class="form-control" type="date" placeholder="Date">
+            </div>
+            <div class="col-lg mb-3 mb-lg-0">
+              <label>No. of Adults</label>
+                <select class="form-select">
+                    <!-- <option selected>Adults</option> -->
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>                    
+                </select>
+            </div>
+            <div class="col-lg mb-3 mb-lg-0">
+              <label>No. of Children</label>
+                <select class="form-select">
+                    <!-- <option selected>Children</option> -->
+                    <option value="1">1</option>
+                    <option value="2">2</option>                                       
+                </select>
+            </div>
+            <div class="col-lg mb-3 mb-lg-0">
+              <label></label>
+                <button type="submit" class="main-btn rounded-2 px-lg-3">Check Availability</button>
+            </div>
+        </form>
+    </div>
+    <!-- Banner exist -->
+
+
+    <!-- About section -->
+    <section id="about" class="about_wrapper">
+        <div class="container ">
+            <div class="row flex-lg-row flex-column-reverse ">
+                <div class="col-lg-6 text-center text-lg-start" data-aos="fade-down" data-aos-delay="50">
+                    <h3>Introduction to <span> <br class="d-none d-lg-block">
+                            Hotel Yellow Pagoda</span> </h3>
+
+                    <p> We are located in the heart of the city of Pokhara.-minutes' walk to the Lakeside, where every
+                        corner is a showpiece of Nepali natural history and culture. Morover the modern global
+                        backpacking travelers most preferred hub in Pokhara-'Lakeside' is also just a few minutes' walk
+                        from our hotel. Not to be outdone, our location is surrounded by Casinos, world class
+                        restaurants, branded shops and the sights and sounds of the modern world and the ancient bazaars
+                        from this part of the world.<br>
+                        "The Yellow Pagoda"-is a name that reflects hospitality, unique friendly service and comfort
+                        comparable to the best. </p>
+
+                    <a href="aboutus.html" class="main-btn mt-4">Explore</a>
+                </div>
+                <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center" data-aos="fade-down" data-aos-delay="50">
+                    <img src="images/hotel yellow pagoda main building.JPG" class="img-fluid" alt="About Us">
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About ends -->
+
+
+
+    <!-- Rooms start -->
+    <section class="rooms" id="rooms">
+        <h3 class="text-center" data-aos="fade-down" data-aos-delay="150">Rooms & Suites</h3>
+        <div class="line" data-aos="fade-down" data-aos-delay="150"></div>
+        <br><br>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 col-sm-6 col-xs-12" data-aos="fade-down" data-aos-delay="150">
+                    <div class="hovereffects">
+                        <img src="images/rooms/deluxe room.JPG" height="300px" width="100%" alt="images">
+                        <div class="overlay">
+                            <h2>Deluxe King Room</h2>
+                            <a class="info" href="rooms.html">More Info</a>
+                            <p>USD 70 / Night</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-4 col-sm-6 col-xs-12" data-aos="fade-down" data-aos-delay="150">
+                    <div class="hovereffects">
+                        <img src="images/rooms/super deluxe room.JPG" height="300px" width="100%" alt="images">
+                        <div class="overlay">
+                            <h2>Super King Room</h2>
+
+                            <a class="info" href="rooms.html">More Info</a>
+                            <p>USD 80 / Night</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="col-md-4 col-sm-6 col-xs-12" data-aos="fade-down" data-aos-delay="150">
+                    <div class="hovereffects">
+                        <img src="images/rooms/pagoda suite.jpg" height="300px" width="100%" alt="images">
+                        <div class="overlay">
+                            <h2>Deluxe Twin Room</h2>
+                            <a class="info" href="rooms.html">More Info</a>
+                            <p>USD 90 / Night</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <a href="rooms.html" class="main-btn mt-4">View All</a>
+
+        </div>
+    </section>
+
+
+    <!-- Rooms ends -->
+
+    <!-- Services -->
+    <section id="services" class="services_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+
+                    <h3 data-aos="fade-down" data-aos-delay="150">Our Awesome Services</h3>
+                    <div class="line" data-aos="fade-down" data-aos-delay="150"></div>
+                </div>
+            </div>
+            <div class="row align-items-center service-item-wrap">
+                <div class="col-lg-7 p-lg-0" data-aos="fade-down" data-aos-delay="150">
+                    <!--Service Area Start-->
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade active show" id="spa" role="tabpanel">
+                            <img src="./images/services/recp.jpg" alt="">
+                        </div>
+                        <div class="tab-pane fade" id="restaurent" role="tabpanel">
+                            <img src="./images/services/bar.jpg" alt="">
+                        </div>
+                        <div class="tab-pane fade" id="swimming" role="tabpanel">
+                            <img src="images/services/swimming pool.jpg" alt="">
+                        </div>
+                        <div class="tab-pane fade" id="conference" role="tabpanel">
+                            <img src="./images/services/hall.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-5 position-relative" data-aos="fade-down" data-aos-delay="150">
+
+                    <div class="service-menu-area">
+                        <ul class="nav">
+                            <li>
+                                <a data-bs-toggle="tab" href="#spa" class="active">
+                                    <span class="service-icon">
+                                        <img src="./images/services/service-icon1.webp" alt="">
+                                    </span>
+                                    <h5>Yoga & Health</h5>
+                                    <p><span>Yoga </span>service is provided to help guests relax and improve their overall wellness.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-bs-toggle="tab" href="#restaurent">
+                                    <span class="service-icon">
+                                        <img src="./images/services/service-icon2.webp" alt="">
+                                    </span>
+                                    <h5>Restaurant</h5>
+                                    <p><span>Restaurant</span> serves customers in a fast, efficient and friendly
+                                        manner. </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-bs-toggle="tab" href="#swimming">
+                                    <span class="service-icon">
+                                        <img src="./images/services/service-icon3.webp" alt="">
+                                    </span>
+                                    <h5>Swimming Pool</h5>
+                                    <p><span>Swimming</span> pool services available for 24 hours. </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-bs-toggle="tab" href="#conference">
+                                    <span class="service-icon">
+                                        <img src="./images/services/service-icon4.webp" alt="">
+                                    </span>
+                                    <h5>Halls Galore</h5>
+                                    <p>We have a galore of HALLS to suit your desire,for conducting conferences,
+                                        seminars,parties,meetings and any get together of your choice.</p>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--Service Tab Menu Area End-->
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- services ends -->
+    <!-- gallery starts -->
+    <section class="container-fluid" id="gallery">
+        <h3 class="text-center" data-aos="fade-down" data-aos-delay="150">Our Gallery</h3>
+        <div class="line" data-aos="fade-down" data-aos-delay="150"></div>
+        <div class="row mt-8" data-aos="fade-down" data-aos-delay="150">
+
+            <div class="item col-sm-6 col-md-4 mb-3">
+                <a href="images/hotel yellow pagoda main building.JPG" class="fancybox" data-fancybox="gallery1">
+                    <img src="images/hotel yellow pagoda main building.JPG" width="100%" height="100%">
+                </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+                <a href="images/food1.JPG" class="fancybox" data-fancybox="gallery1">
+                    <img src="images/food1.JPG" width="100%" height="100%">
+                </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+                <a href="images/honeymoon room (2).JPG" class="fancybox" data-fancybox="gallery1">
+                    <img src="images/honeymoon room (2).JPG" width="100%" height="100%">
+                </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+                <a href="images/juice.JPG" class="fancybox" data-fancybox="gallery1">
+                    <img src="images/juice.JPG" width="100%" height="100%">
+                </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+                <a href="images/bar.JPG" class="fancybox" data-fancybox="gallery1">
+                    <img src="images/bar.JPG" width="100%" height="100%">
+                </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+                <a href="images/food2.JPG" class="fancybox" data-fancybox="gallery1">
+                    <img src="images/food2.JPG" width="100%" height="100%">
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <!-- gallery ends -->
+
+
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-3 col-sm-6">
+                        <a href="#"><img src="images/logo HYPP.jpg" alt=""></a>
+                        <div class="line"></div>
+                        <p>Our hotel is an opulent establishment that offers lavish amenities, exceptional service, and
+                            sumptuous decor.</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/hotelyellowpagodapokhara" target="_blank"><i
+                                    class="fab fa-facebook"></i></a>
+
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5 class="mb-0 text-white">Contact</h5>
+                        <div class="line"></div>
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt"></i> Damside RD, Pokhara</li>
+                            <li><i class="fas fa-phone-alt"></i><a href="tel:+977 061-467991">+977 061-467991</a></li>
+                            <li><i class="fas fa-envelope"></i> info@yellowpagoda.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5 class="mb-0 text-white">Services</h5>
+                        <div class="line"></div>
+                        <ul>
+                            <li><a href="index.html#services">Yoga & Health</a></li>
+                            <li><a href="index.html#services">Restaurant</a></li>
+                            <li><a href="index.html#services">Swimming Pool</a></li>
+                            <li><a href="index.html#services">Halls Galore</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5 class="mb-0 text-white">Location</h5>
+                        <div class="line"></div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.222446613572!2d85.31300821438468!3d27.71041733196536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19018d9328e5%3A0xb3f53f2a0306f6d0!2sYellow%20Pagoda!5e0!3m2!1sen!2snp!4v1670317972487!5m2!1sen!2snp"
+                            width="250" height="160" margin-right="15px" margin-top="15px" style="border:0;"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row g-4 justify-content-between">
+                    <div class="col-auto">
+                        <p class="mb-0">© Copyright Hotel Yellow Pagoda . All Rights Reserved</p>
+                    </div>
+                    <div class="col-auto">
+                        <p class="mb-0">Designed By: <a href="https://www.sait.com.np/" target="_blank"> <strong>SA IT Solutions</strong></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+<script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        AOS.init({
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 900, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+    </script>
+
+</html>

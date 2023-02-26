@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Now</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container ms-middle-container">
+
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col text-center mb-4">
+                        <span class="h4">
+                            <h2>Booking Form</h2>
+                        </span>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col form-container">
+                        <form class="mx-auto mt-4">
+                            <div class="form-group form-row">
+                                <div class="col-sm-6">
+                                    <label for="fullName">Full Name:</label>
+                                    <input type="text" class="form-control" id="fullName"
+                                        placeholder="Enter your full name" name="fullName">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="email">Email Address:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email"
+                                        name="email">
+                                </div>
+                            </div>
+                            <div class="form-group form-row">
+                                <div class="col-sm-6">
+                                    <label for="checkinDate">Check-in Date:</label>
+                                    <input type="date" class="form-control" id="checkinDate" name="checkinDate">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="checkoutDate">Check-out Date:</label>
+                                    <input type="date" class="form-control" id="checkoutDate" name="checkoutDate">
+                                </div>
+
+                            </div>
+                            <div class="form-group form-row">
+                                <div class="col-sm-6">
+                                    <label for="roomType">Room Type:</label>
+                                    <select class="form-control" id="roomType" name="roomtype">
+                                        <option>Deluxe King Room</option>
+                                        <option>Deluxe Twin Room</option>
+                                        <option>Superior King Room</option>
+                                        <option>Superior Twin Room</option>
+                                        <option>Executive Suite</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="totalPeople">Total People:</label>
+                                    <input type="text" class="form-control" id="totalPeople"
+                                        placeholder="Enter total number of people" name="totalPeople">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="phone">Phone Number:</label>
+                                    <input type="text" class="form-control" id="phone" placeholder="Enter Phone Number"
+                                        name="phone">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    
+
+</html>
